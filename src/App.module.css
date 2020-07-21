@@ -19,6 +19,26 @@
 
 .inside{
   padding: 150px 120px;
+}
 
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+  .inside{
+    padding: 100px 40px;
+  }
+
+  .container{
+    background-color: #D3D3D3;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 2px;
+    padding-right: 2px;
+   }
 }
 

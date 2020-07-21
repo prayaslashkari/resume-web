@@ -43,7 +43,6 @@
 
 .panel{
     margin-top: 20px;
-    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -72,4 +71,66 @@
 .panel div a:hover{
     color: rgb(0, 110, 255);
 
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        margin-top: 50px;
+    }
+    
+    .headline{
+        color: #B5B8C0;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .header{
+        letter-spacing: 1px;
+        font-weight: 800;
+        color: #000000; 
+        font-size: 20px;   
+    }
+    .techstack{
+        margin-top: 8px;
+        color: #5e5e5e;
+        font-size: 15px;
+        
+    }
+
+    .description{
+        color: #5e5e5e;
+        margin-top: 20px;
+        line-height: 25px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .panel div h3{
+        font-size: 15px;
+    }
+
+    .link a{
+        font-size: 15px;
+    }
+
+    .status{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-weight: 600;
+    }
+
+    .spantext{
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 5px;
+    }
 }

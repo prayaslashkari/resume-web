@@ -28,7 +28,6 @@
 
 .spantext{
     font-weight: 400;
-
 }
 
 .time{
@@ -45,4 +44,49 @@
     margin-top: 20px;
     line-height: 30px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+
+    .headline{
+        color: #B5B8C0;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .ins{
+        font-size: 20px;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        font-weight: 800;
+    }
+
+    .spantext{
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .time{
+        margin-top: 8px;
+        color: #707070;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .descrip{
+        color: #5e5e5e;
+        margin-top: 20px;
+        line-height: 25px;
+        font-size: 15px;
+    }
 }

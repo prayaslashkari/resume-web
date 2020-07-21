@@ -31,3 +31,30 @@
     letter-spacing: 1px;
 }
 
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+
+    .headline{
+        color: #B5B8C0;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .head{
+        font-size: 20px;
+    }
+    .content{
+        color: #5e5e5e;
+        margin-top: 15px;
+        line-height: 25px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+}

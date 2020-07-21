@@ -15,3 +15,20 @@
     color: #2077F5;
 }
 
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+    .name{
+        font-size: 30px;
+    }
+    
+    .pos{
+        font-size: 30px;
+        color: #2077F5;
+    }
+}
+

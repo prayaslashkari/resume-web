@@ -20,3 +20,30 @@
     line-height: 30px;
     color: #5e5e5e;
 }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        /* border: red solid 1px; */
+        margin-top: 50px;
+    }
+    
+    .headline{
+        color: #B5B8C0;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .content{
+        margin-top: 40px;
+        font-size: 15px;
+        line-height: 25px;
+        color: #5e5e5e;
+    }
+}
