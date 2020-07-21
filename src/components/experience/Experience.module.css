@@ -1,0 +1,52 @@
+.container{
+    margin-top: 80px;
+}
+
+.inner{
+
+}
+
+.experience{
+
+}
+
+.header h1{
+    color: #B5B8C0;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.section{
+    margin-bottom: 50px;
+}
+
+.ins{
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.spantext{
+    font-weight: 400;
+}
+
+.time{
+    margin-top: 8px;
+    color: #707070;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.descrip{
+    color: #5e5e5e;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}

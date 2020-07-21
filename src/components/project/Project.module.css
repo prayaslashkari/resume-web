@@ -1,0 +1,75 @@
+.container{
+    margin-top: 80px;
+}
+
+.headline{
+    color: #B5B8C0;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.header{
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #000000;    
+}
+
+.status{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+}
+
+.spantext{
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.techstack{
+    margin-top: 8px;
+    color: #5e5e5e;
+}
+
+.description{
+    color: #5e5e5e;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.panel{
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+}
+
+.link{
+    margin-left: 15px;
+}
+
+.panel div:first-child{
+    color: #5e5e5e;
+    font-size: 15px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.1s ease-in-out;
+}
+
+
+.panel div a:hover{
+    color: rgb(0, 110, 255);
+
+}

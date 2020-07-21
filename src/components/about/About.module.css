@@ -1,0 +1,22 @@
+.container{
+    /* border: red solid 1px; */
+    margin-top: 80px;
+}
+
+.inner{
+
+}
+
+.headline{
+    color: #B5B8C0;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.content{
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5e5e5e;
+}

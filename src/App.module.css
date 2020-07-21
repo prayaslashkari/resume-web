@@ -1,0 +1,24 @@
+.container{
+ background-color: #D3D3D3;
+ height: auto;
+ padding-top: 80px;
+ padding-bottom: 80px;
+}
+
+.inner{
+  margin: 0 auto;
+  position: relative;
+  max-width: 1500px;
+  background-color: #FFFFFF;
+
+
+  -webkit-box-shadow: 4px 6px 45px -16px rgba(0,0,0,0.4);
+  -moz-box-shadow: 4px 6px 45px -16px rgba(0,0,0,0.4);
+  box-shadow: 4px 6px 45px -16px rgba(0,0,0,0.4);
+}
+
+.inside{
+  padding: 150px 120px;
+
+}
+

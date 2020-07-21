@@ -1,0 +1,28 @@
+.container{
+    margin-top: 80px;
+}
+
+.inner{
+    
+}
+
+.header h1{
+    color: #B5B8C0;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+
+.content ul li{
+    list-style: none;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 20px; 
+}

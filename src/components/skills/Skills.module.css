@@ -1,0 +1,33 @@
+.container{
+    margin-top: 80px;
+}
+
+
+.headline{
+    color: #B5B8C0;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.desc{
+    line-height: 30px;
+    color: #5e5e5e;
+}
+
+.head{
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.content{
+    color: #5e5e5e;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
