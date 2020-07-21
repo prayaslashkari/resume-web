@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Header.module.css'
 
-const Header = () => {
+const Header = (props) => {
     return ( 
         <div className={styles.container}>
             <div className={styles.inner}>
-                <h1 className={styles.name}>Prayas Lashkari</h1>
-                <h1 className={styles.pos}>Frontend Developer</h1>
+                <h1 className={styles.name}>{props.values.name}</h1>
+                <h1 className={styles.pos}>{props.values.des}</h1>
             </div>
         </div>
      );
